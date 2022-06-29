@@ -1,1 +1,79 @@
-/* Write your CSS here! */
+body {
+    background-color: #d4e3a4;
+    margin: 8px;
+    display: block;
+}
+
+h2 {
+    color: #ba2323;
+}
+h3 {
+    color: #037a03;
+}
+h4 {
+    color: #039a03;  
+}
+
+header {
+    margin-left: 25px;
+    background-color: #c8d798;
+    text-align: center;
+}
+.aLittleHigher {
+    margin-top: -15px;
+}
+section {
+    background-color: #c4d3b4;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.innerSection {
+    background-color: #b4c3a4;
+    padding-bottom: 20px;
+}
+img {
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+figcaption {
+    position: relative;
+    margin-top: -30px;
+    padding: 20px;
+    padding-right: 30%;
+    padding-left: 30%;
+    display: block;
+    text-align: center;
+    
+}
+footer {
+    background-color: rgba(100, 120, 100, 0.2);
+    padding-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+#mainHeading {
+    color: red;
+}
+
+#meditate-cat {
+    height: 260px;
+    width: 320px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.hiddenTops {
+    color: rgba(100, 160, 180, 0.6);
+}
