@@ -2,14 +2,15 @@
 <html>
    <head>
       <title>Finding Nothing on the Search for Happiness</title>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <header id="top">
-         <h1>My Journey with Meditation</h1>
+         <h1 id="mainHeading">My Journey with Meditation</h1>
          <h2>From Needing Perfection to Unconditional Love</h2>
          <article>
             <p>Written and designed by Natasha Lewis</p>
-            <p>&copy; June 2022</p>
+            <p class="aLittleHigher">&copy; June 2022</p>
          </article>
          <ol>
             <li><a href="#sect-1-redirect">Go to "My World Before Meditation"</a></li>
@@ -21,7 +22,7 @@
       <Main>
          <section id="main-sect-1">
             <h2>My World Before Meditation</h2>
-            <section>
+            <section class="innerSection">
                <h3>Everything, Everywhere, All at Once</h3>
                <p>
                   I won't get too detailed, but let's just say I am not an outlier for the generation that grew up with the Internet.
@@ -39,7 +40,7 @@
                   <figcaption>I was trying to figure out what kind of <em>man</em> I would be. I was in for a huge surprise</figcaption>
                </div>
             </section>
-            <section>
+            <section class="innerSection">
                <h3>Who Am I?</h3>
                <p>
                   Needless to say, in this complex and information-dense world, I was looking for "myself", and how I fit in to that massive narrative.
@@ -55,7 +56,7 @@
                   hate? It's not a timeline any of us know, so in this moment it doesn't exist.
                </p>
             </section>
-            <section  id="non-identity">
+            <section  class="innerSection" id="non-identity">
                <h3>Falling Dominoes</h3>
                <p>
                   I felt a lot of fear, every day, about those big problems that I had no power over. I was constantly thinking about how we could fix this imperfect
@@ -72,7 +73,8 @@
          </section>
          <section id="main-sect-trad-meditation">
             <h2>What Meditation Really Is</h2>
-            <section>
+            <a class="hiddenTops" href="#top">Back to Top</a>
+            <section class="innerSection">
                <h3>Traditional/Conventional Meditation Styles</h3>
                <section>
                   <h4>Pranayam/Breath Control</h4>
@@ -110,8 +112,10 @@
                   </p>
                </section>
             </section>
-            <section id="hobbies-are-meditation">
-               <section>
+            <section id="hobbies-are-meditation" class="innerSection">
+               <h2>Non Traditional Meditation</h2>
+               <a class="hiddenTops" href="#top">Back to Top</a>
+               <section >
                   <h3>Hobbies Can be Meditation</h3>
                   <img src="https://th.bing.com/th/id/R.946c841cb35b1cf64601fb5f5db25156?rik=eWFc%2fyHX0NCplw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-TNY_o5HOCiI%2fUqlvLw5rIlI%2fAAAAAAAAlmA%2fepVleMw1ss8%2fs1600%2f03.jpg&ehk=EZQLSbl6RS7UOCoB1%2bcsSU6qTd2lfUKW8dO2dVvBkDU%3d&risl=&pid=ImgRaw&r=0" alt="sand-mandala">
                   <figcaption>
@@ -139,7 +143,7 @@
                      constant acts of work and play.                     
                   </p>
                   <h4>It's up to you</h4>
-                  <p>Beyond your hobbies, beyond the committed practice, there is a state of mind that is meditative. It is believed by many in the field of study
+                  <p id="testP" class="funParagraph">Beyond your hobbies, beyond the committed practice, there is a state of mind that is meditative. It is believed by many in the field of study
                      I find myself in with meditation, that the purpose of this act is not to take a break from everything and meditate now and again. The purpose,
                      rather, is to come into a state of being - a place in our mind's functioning - that is meditative at all times. A state of equanimity and compassion
                      that is neither stuck entirely in the thoughts of the mind, nor completely dissociated from normal life. Who's to say? All I can say is that meditation
@@ -152,8 +156,9 @@
       <footer>
       <h2>Thank you for reading!</h2>
       <h3>I hope it wasn't too boring. I really do love Meditation, but it's not everyone's thing.</h3>
-      <br>
-      <br>
+      <img src="data:image/jpeg;base64,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"
+      alt ="meditate-cat" id="meditate-cat">
+      <figcaption>Here's a meditating cat as thanks.</figcaption>
       <br>
       <h2 id="footer">Footnotes</h2>
        <ul>
